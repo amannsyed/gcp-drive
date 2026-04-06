@@ -1,0 +1,5 @@
+{
+  "name": "GCP Drive & Sheets Manager",
+  "description": "Manage your Google Drive files and Sheets using a GCP Service Account JSON.",
+  "requestFramePermissions": []
+}
