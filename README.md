@@ -16,6 +16,20 @@ A **secure, static, and client‑side** Google Cloud Platform (GCP) Drive manage
 
 ---
 
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| [React 19](https://reactjs.org/) | UI framework |
+| TypeScript 5.8 | Type safety |
+| [Vite 6](https://vitejs.dev/) | Build tool & dev server |
+| [Tailwind CSS v4](https://tailwindcss.com/) | Styling |
+| [Lucide React](https://lucide.dev/) | Icons |
+| [Framer Motion](https://www.framer.com/motion/) | Animations |
+| Web Crypto API | Client-side JWT signing |
+
+---
+
 ## 🛠️ Getting Started
 
 ### 1. Prerequisites
@@ -71,6 +85,30 @@ This project is configured to deploy to **GitHub Pages** using GitHub Actions.
 > - **Open Source:** You can audit the code in `src/googleAuth.ts` and `src/App.tsx` to verify the security of the signing process.
 
 ---
+
+## 📁 Project Structure
+
+```text
+gcp-drive/
+├── src/
+│   ├── App.tsx             # Main application component
+│   ├── googleAuth.ts       # Client-side JWT signing & Google OAuth
+│   ├── main.tsx            # React DOM entry point
+│   └── index.css           # Global styles and Tailwind imports
+├── .github/
+│   └── workflows/
+│       └── deploy.yml      # GitHub Actions auto-deployment
+├── public/                 # Static assets
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request or open an Issue.
 
 ## 📝 License
 
